@@ -2,6 +2,7 @@
 
 - [DQL - Select statament](./dql.md)
 - [DQL - Where clause](./dql_where.md)
+- [DQL - Combining with AND, OR ...](./dql_combining.md)
 - [DQL - Group by clause and aggregation functions](./dql_group_by.md)
 - [DQL - The HAVING clause](./the_having_clause.md)
 - [DQL - The ORDER BY clause](./the_order_by_clause.md)

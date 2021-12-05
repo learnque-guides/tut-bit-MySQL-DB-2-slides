@@ -1,0 +1,3 @@
+# DQL - Combining with AND, OR ...
+
+We've used the WHERE clause to test one condition, returning all rows that meet it. You can combine two or more conditions using the Boolean operators AND, OR, NOT, and XOR.

@@ -6,7 +6,7 @@
 SET SESSION sql_mode='PIPES_AS_CONCAT';
 ```
 
-* For other operations on character strings, T-SQL provides several functions, including *SUBSTRING, LEFT, RIGHT, LEN, LENGTH, CHARINDEX, REPLACE, REPEAT, UPPER, LOWER, RTRIM, LTRIM, FORMAT, and more*.
+* For other operations on character strings, SQL provides several functions, including *SUBSTRING, LEFT, RIGHT, LEN, LENGTH, CHARINDEX, REPLACE, REPEAT, UPPER, LOWER, RTRIM, LTRIM, FORMAT, and more*.
 
 ```sql
 SET SESSION sql_mode='PIPES_AS_CONCAT';
@@ -137,3 +137,6 @@ SELECT empid, lastname
 FROM Employees
 WHERE lastname LIKE '!_e%' ESCAPE '!';
 ```
+
+More functions to analyse:
+[https://mariadb.com/kb/en/string-functions/](https://mariadb.com/kb/en/string-functions/)

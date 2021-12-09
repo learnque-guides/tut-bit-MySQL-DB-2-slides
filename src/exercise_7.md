@@ -1,6 +1,6 @@
 # Exercise 7
 
-Write a query against the `Orders` table that returns the three shipped-to countries with the highest average freight in 2015:
+Write a query against the *Orders* table that returns the three shipped-to countries with the highest average freight in 2015:
 
 * Tables involved: *lessons* database and the *Orders* table
 * Desired output:

@@ -12,7 +12,7 @@ FROM Orders
 WHERE orderdate = '20160212';
 ```
 
-SQL Server recognizes the literal ‘20160212’ as a character-string literal and not as a date and time literal, but because the expression involves operands of two different types, one operand needs to be implicitly converted to the other's type.
+SQL recognizes the literal ‘20160212’ as a character-string literal and not as a date and time literal, but because the expression involves operands of two different types, one operand needs to be implicitly converted to the other's type.
 
 Casting is done implicitly here, but we can specify it by using *CAST*
 

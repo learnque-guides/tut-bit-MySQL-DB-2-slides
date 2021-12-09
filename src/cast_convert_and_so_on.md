@@ -1,11 +1,7 @@
-# The CAST, CONVERT, and PARSE functions and their TRY_ counterparts
+# The CAST, CONVERT
 
 * CAST(value AS datatype)
-* TRY_CAST(value AS datatype)
-* CONVERT (datatype, value [, style_number])
-* TRY_CONVERT (datatype, value [, style_number])
-* PARSE (value AS datatype [USING culture])
-* TRY_PARSE (value AS datatype [USING culture])
+* CONVERT (datatype, value)
 
 ```sql
 SELECT CAST('20160212' AS DATE);

@@ -1,8 +1,8 @@
 # Exercise 9
 
-Write a query against the *Sales.Customers* table that returns for each customer the customer ID and region. Sort the rows in the output by region, having NULLs sort last (after non-NULL values). Note that the default sort behavior for NULLs in T-SQL is to sort first (before non-NULL values):
+Write a query against the *Customers* table that returns for each customer the customer ID and region. Sort the rows in the output by region, having NULLs sort last (after non-NULL values). Note that the default sort behavior for NULLs in SQL is to sort first (before non-NULL values):
 
-* Tables involved: *lessons* database and the *Sales.Customers* table
+* Tables involved: *lessons* database and the *Customers* table
 * Desired output (abbreviated):
 
 ```

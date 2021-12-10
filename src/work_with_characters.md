@@ -50,7 +50,7 @@ SELECT LENGTH(N'abcde');
 POSITION(substr IN str)
 
 ```sql
-SELECT POSTION(' ' IN 'Itzik Ben-Gan');
+SELECT POSITION(' ' IN 'Itzik Ben-Gan');
 ```
 
 REPLACE(string, substring1, substring2)
@@ -83,7 +83,7 @@ FORMAT(num, decimal_position[, locale])
 SELECT FORMAT(123456789,2,'lt_LT') AS 'Format';
 ```
 
-IIF(string or null, replace)
+IFNULL(string or null, replace)
 
 ```sql
 SELECT IFNULL(NULL, 'z');
@@ -116,12 +116,12 @@ FROM Employees
 WHERE lastname REGEXP '[A-E]';
 ```
 
-* The `[^<character list or range>]` wildcard (^ not in char list)
+* The `^[<character list or range>]` wildcard (^ not in char list)
 
 ```sql
 SELECT empid, lastname
 FROM Employees
-WHERE lastname REGEXP '[^A-E]';
+WHERE lastname REGEXP '^[A-E]';
 ```
 
 In MySQL you can escape characters in LIKE expression:
